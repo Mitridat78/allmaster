@@ -1,9 +1,19 @@
 /* styles for allmaster */
+body {
+  font-size: 18px;
+}
 .my-container {
   width: 100%;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 12%;
+  padding-left: 12%;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid red;
+  border: 2px solid red;
+}
+.block-img-main {
+  background: url("../img/main-fon.jpg") center no-repeat;
+  background-size: cover; /*сохраняем пропорции*/
+  background-position: center center;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
