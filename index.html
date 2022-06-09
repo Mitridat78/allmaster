@@ -46,50 +46,135 @@
                 </div>
             </nav>
             </div> <!-- end div my-container -->
-        </div> <!-- end div flex -->
-
-        <div class="block-img-main">
-            <div class="my-container text-light">
-                TEST TEST TESTTEST TEST TESTTEST TEST TESTTEST TEST 
-                TESTTEST TEST TESTTEST TEST TESTTEST TEST TESTTEST TEST TESTTEST TEST 
-                TESTTEST TEST TEST
-                <div class="row bg-light p-4 mt-4 mb-4" style="border: 1px solid red;">
-                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
-                        <figure>
-                            <img src="./img/im1.png" alt="">
-                            <figure style="font-size: 25px;">1000</figure>
-                            <figcaption>Зарегистрированных сервисных центров</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
-                        <figure>
-                            <img src="./img/im2.png" alt="">
-                            <figure style="font-size: 25px;">1000</figure>
-                            <figcaption>Зарегистрированных мастеров по ремонту</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
-                        <figure>
-                            <img src="./img/im3.png" alt="">
-                            <figure style="font-size: 25px;">1000</figure>
-                            <figcaption>Успешно выполенных заказов</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
-                        <figure>
-                            <img src="./img/im4.png" alt="">
-                            <figure style="font-size: 25px;">1000</figure>
-                            <figcaption>Заявок на ремонт в базе </figcaption>
-                        </figure>
-                    </div>
-                </div> <!-- end div row -->
-            </div> <!-- end div my-container -->
-        </div> <!-- end div block-img-main -->
-    
+        </div> <!-- end div flex -->    
     </header>
+    
+    <div class="block-img-main">
+        <div class="my-container text-light">
+            <h1 class="text-center mb-0">Ремонт бытовой, компьютерной техники и электроники</h1>
+            <h2 class="text-center">Найти сервисный центр или мастера по ремонту техники рядом</h2>
+            <div class="row no-gutters row-search mt-5 mb-5"> <!-- form search, no-gutters - удаляем желоба (расстояние) между столбцами -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="mt-2"> <!-- div class for input form -->
+                        <input type="text" class="form-control rounded-0 border-0 py-4" id="string-search" 
+                        placeholder="Поиск">
+                    </div> <!-- end div for input form -->
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="mt-2">
+                        <select class="form-control rounded-0 border-0 py-4" id="sel1" name="sellist1">
+                          <option>Выберите страну</option>
+                          <option>Украина</option>
+                          <option>Польша</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="mt-2"> <!-- div class for input form -->
+                        <select class="form-control rounded-0 border-0 py-4" id="sel1" name="sellist1">
+                            <option>Выберите регион</option>
+                            <option>Киевская</option>
+                            <option>Харьковская</option>
+                        </select>
+                    </div> <!-- end div for input form -->
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="mt-2"> <!-- div class for input form -->
+                        <select class="form-control rounded-0 border-0 py-4" id="sel1" name="sellist1">
+                            <option>Выберите город</option>
+                            <option>Киев</option>
+                            <option>Харьков</option>
+                        </select>
+                    </div> <!-- end div for input form -->
+                </div>
+
+                <div class="col-lg-2 col-md-12">
+                    <div class="text-md-center text-sm-center text-center mt-2"> <!-- div class for input form -->
+                    <!--    <a href="#" style="border: 1px solid red;" class="bg-success text-white font-weight-bold pl-5 pr-5 pt-3 pb-3">Найти</a>-->
+                        <button type="button" class="btn btn-success border-0 rounded-0 font-weight-bold pl-5 pr-5">Найти</button>
+                    </div> <!-- end div for input form -->
+                </div>
+            </div>
+            <div class="row bg-light p-4 mt-4 mb-0" style="border: 1px solid red;">
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
+                    <figure>
+                        <img src="./img/im1.png" alt="">
+                        <figure style="font-size: 25px;">1000</figure>
+                        <figcaption>Зарегистрированных сервисных центров</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
+                    <figure>
+                        <img src="./img/im2.png" alt="">
+                        <figure style="font-size: 25px;">1000</figure>
+                        <figcaption>Зарегистрированных мастеров по ремонту</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
+                    <figure>
+                        <img src="./img/im3.png" alt="">
+                        <figure style="font-size: 25px;">1000</figure>
+                        <figcaption>Успешно выполенных заказов</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center text-success" style="border: 1px solid red;">
+                    <figure>
+                        <img src="./img/im4.png" alt="">
+                        <figure style="font-size: 25px;">1000</figure>
+                        <figcaption>Заявок на ремонт в базе </figcaption>
+                    </figure>
+                </div>
+            </div> <!-- end div row -->
+        </div> <!-- end div my-container -->
+    </div> <!-- end div block-img-main -->
+
 
     <footer>
+        <div class="my-container">
+            <div class="row mt-5 mb-5">
+                <div class="col-lg-3 col-xl-2 col-md-6 col-xs-12 ml-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Как это работает</a></li>
+                        <li><a href="#">Форум</a></li>
+                        <li><a href="#">Статьи</a></li>
+                    </ul>
+                </div> <!--end div column-->
 
+                <div class="col-lg-3 col-xl-2 col-md-6 col-xs-12 ml-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Поддержка</a></li>
+                        <li><a href="#">Связаться с нами</a></li>
+                    </ul>
+                </div> <!--end div column-->
+                
+                <div class="col-lg-3 col-xl-2 col-md-6 col-xs-12 ml-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#"> Платные услуги</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">Партнерам</a></li>
+                    </ul>
+                </div> <!--end div column-->
+
+                <div class="col-lg-3 col-xl-2 col-md-6 col-xs-12 ml-3 pb-md-4 mt-md-3 mt-lg-0">
+                    <a href="#"><img src="./img/face.png" alt=""></a>
+                    <a href="#"><img src="./img/youtube.png" alt=""></a>
+                    <a href="#"><img src="./img/inst.png" alt=""></a>
+                    <a href="#"><img src="./img/twit.png" alt=""></a>
+                    <a href="#"><img src="./img/pinterest.png" alt=""></a>
+                    <p><a href="mailto: admin@allmaster.com.ua">admin@allmaster.com.ua</a></p>
+                </div> <!--end div column-->
+
+                <div class="col-lg-3 col-xl-2 col-md-6 col-xs-12 ml-2 ml-lg-2 ml-xl-5 ml-md-2">
+                    <img src="./img/visa.png" alt="">
+                    <img src="./img/mastercard.png" alt="">
+                </div> <!--end div column-->
+
+
+            </div> <!-- end div row -->
+        </div> <!-- end div container -->
     </footer>
 
     <!-- скрипт бутстрапа -->
