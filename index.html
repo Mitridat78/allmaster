@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-xl justify-content-center">
+            <nav class="navbar navbar-expand-xl justify-content-center"> <!-- justify-content-center - все будет по центру при минимальном разрешении экрана -->
                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
                 <div class="form-group pt-3">
                     <select class="form-control border-0" id="sel1" name="sellist1">
@@ -43,7 +43,7 @@
                     </ul>
                 </div>  <!-- end div collapse -->
                     
-                <div class="mr-md-auto">
+                <div class="mr-md-auto"> <!-- mr-md-auto - следующий блок (div) будут справа пока разрешение экрана более или равно md -->
                     <img class="pr-3" src="./img/p1.png" alt="">
                     <img class="mr-3" src="./img/p2.png" alt="">
                 </div>
@@ -140,7 +140,7 @@
 
     <footer>
         <div class="container">
-            <div class="row mt-5 mb-5 ml-5">
+            <div class="row mt-5 mb-5 ml-sm-5 ml-lg-0 ml-xl-5 ml-md-0">
                 <div class="col-lg-3 col-xl-2 col-md-6 col-sm-5 col-xs-12 text-xl-left text-lg-left text-sm-center text-md-center text-center">
                     <ul class="list-unstyled">
                         <li><a href="#">Как это работает</a></li>
