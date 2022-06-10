@@ -26,9 +26,10 @@ a:visited, a:focus, a:active, a:hover {
   text-decoration: none;
   color: black;
 }
-.menu-link-margin {
+/*.menu-link-margin {
   margin-left: 150px;
 }
+*/
 @media screen and (max-width: 992px) {
   .row-search {
     margin-left: 0;
