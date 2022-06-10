@@ -2,14 +2,15 @@
 body {
   font-size: 18px;
 }
-.my-container {
+/*.my-container {
   width: 100%;
-  padding-right: 12%;
-  padding-left: 12%;
+  padding-right: 170px;
+  padding-left: 170px;
   margin-right: auto;
   margin-left: auto;
-  border: 2px solid red;
+  border: 2px solid blue;
 }
+*/
 .block-img-main {
   background: url("../img/main-fon.jpg") center no-repeat;
   background-size: cover; /*сохраняем пропорции*/
@@ -25,14 +26,12 @@ a:visited, a:focus, a:active, a:hover {
   text-decoration: none;
   color: black;
 }
-
+.menu-link-margin {
+  margin-left: 150px;
+}
 @media screen and (max-width: 992px) {
   .row-search {
     margin-left: 0;
     margin-right: 0;
-  }
-  .my-container {
-    padding-right: 5%;
-    padding-left: 5%;
   }
 }
