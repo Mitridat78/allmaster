@@ -26,10 +26,16 @@ a, a:visited, a:focus, a:active, a:hover {
   text-decoration: none;
   color: black;
 }
-/*.menu-link-margin {
-  margin-left: 150px;
+.block-left {
+  width: 70%;
+  float: left;
+  background-color: aqua;
 }
-*/
+.block-right {
+  width: 30%;
+  margin-left: 70%;
+  background-color: grey;
+}
 @media screen and (max-width: 992px) {
   .row-search {
     margin-left: 0;
