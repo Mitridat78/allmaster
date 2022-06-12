@@ -36,6 +36,14 @@ a, a:visited, a:focus, a:active, a:hover {
   margin-left: 70%;
 /*  background-color: grey;*/
 }
+.img-user {
+  float: left;
+  width: 70px
+}
+.job-link, .job-link:hover, .job-link:visited, .job-link:focus, .job-link:active {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 992px) {
   .row-search {
     margin-left: 0;
