@@ -1,6 +1,7 @@
 /* styles for allmaster */
 body {
   font-size: 18px;
+  background-color: rgb(241, 241, 241);
 }
 /*.my-container {
   width: 100%;
@@ -36,6 +37,14 @@ a, a:visited, a:focus, a:active, a:hover {
   margin-left: 70%;
 /*  background-color: grey;*/
 }
+.user-login {
+  margin-right: 10%;
+}
+/*.clear {
+  width: 100%;
+  padding-bottom: 100%;
+}
+*/
 .img-user {
 /*  float: left;*/
   width: 90px;
@@ -63,6 +72,8 @@ a, a:visited, a:focus, a:active, a:hover {
   .block-right {
     margin-left: 0;
   }
-
+.user-login {
+  margin-right: 0;
+}
   
 }
