@@ -72,8 +72,8 @@ a, a:visited, a:focus, a:active, a:hover {
   .block-right {
     margin-left: 0;
   }
-.user-login {
-  margin-right: 0;
+  .user-login {
+    margin-right: 0;
 }
   
 }
