@@ -5,6 +5,9 @@ body {
 .my-body {
   background-color: rgb(241, 241, 241);
 }
+.my-background {
+  background-color: white;
+}
 /*.my-container {
   width: 100%;
   padding-right: 170px;
