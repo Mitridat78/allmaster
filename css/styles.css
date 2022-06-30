@@ -42,9 +42,10 @@ a, a:visited, a:focus, a:active, a:hover {
   margin-left: 70%;
 /*  background-color: grey;*/
 }
-.user-login {
+/*.user-login {
   margin-right: 10%;
 }
+*/
 /*.clear {
   width: 100%;
   padding-bottom: 100%;
@@ -77,8 +78,8 @@ a, a:visited, a:focus, a:active, a:hover {
   .block-right {
     margin-left: 0;
   }
-  .user-login {
+  /*.user-login {
     margin-right: 0;
 }
-  
+  */
 }
